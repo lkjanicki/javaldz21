@@ -1,9 +1,15 @@
 package com.thejavatar.javaldz21.git;
 
+import java.util.Scanner;
+
 public class Application {
 
     public static void main( String[] args ) {
-        System.out.println( "Hello World!" );
+        Scanner myObj = new Scanner( System.in );
+        System.out.println( "Wprowadz nazwe uzytkownika" );
+
+        String userName = myObj.nextLine(); //
+        System.out.println( "Uzytkownik wybral nazwe: " );
     }
 
 }
