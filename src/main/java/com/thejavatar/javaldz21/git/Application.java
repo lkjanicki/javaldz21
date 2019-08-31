@@ -10,6 +10,7 @@ public class Application {
 
         String userName = myObj.nextLine(); //
         System.out.println( "Uzytkownik wybral nazwe: "+userName);
+        System.out.println( "Uzytkownik wybral nazwe: "+userName);
     }
 
 }
