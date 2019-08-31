@@ -9,7 +9,9 @@ public class Application {
         System.out.println( "Wprowadz nazwe uzytkownika" );
 
         String userName = myObj.nextLine(); //
-        System.out.println( "Uzytkownik wybral nazwe: " );
+        System.out.println( 1+"Uzytkownik wybral nazwe: "+userName );
+        System.out.println( 2+"Uzytkownik wybral nazwe: "+userName );
+        System.out.println(3+ "Uzytkownik wybral nazwe: "+userName );
     }
 
 }
