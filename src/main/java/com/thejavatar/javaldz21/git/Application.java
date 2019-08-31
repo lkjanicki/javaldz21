@@ -8,8 +8,8 @@ public class Application {
         Scanner myObj = new Scanner( System.in );
         System.out.println( "Wprowadz nazwe uzytkownika" );
 
-        String userName = myObj.nextLine(); //
-        System.out.println( "Uzytkownik wybral nazwe: " );
+        String userName = myObj.nextLine();//
+        System.out.println("Uzytkownik wybral nazwe: " + userName);
     }
 
 }
